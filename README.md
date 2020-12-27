@@ -3,9 +3,9 @@
 Depending on the Computer Vision tasks to be solved, identification on multiple frames of the same object could be a challenging problem. There is a set of state of the art object trackers available in OpenCV that can be used out of the box [1], I have chosen to implement a simple one for testing purposes.
 
 <p align="center"> 
-  <img src="./info/det.jpg" alt="200" width="200"></a>
-  <img src="./info/ocl.jpg" alt="200" width="200"></a>
-  <img src="./info/newid.jpg" alt="200" width="200"></a>
+  <img src="./info/det.jpg" alt="250" width="250"></a>
+  <img src="./info/ocl.jpg" alt="250" width="250"></a>
+  <img src="./info/newid.jpg" alt="250" width="250"></a>
 </p>
 
 Picture 1, shows a situation where 2 objects of the same type are detected, each of them gets a unique ID. In the next picture, one of the objects is occluded, therefore a single ID is present. In the last picture when the "new" object reappears a new ID is assigned. Depending on the number of frames where the object is missing the ID number remains or is reset. Please take a look at the input parameters for the Centroid Tracker to tweak this behavior.
